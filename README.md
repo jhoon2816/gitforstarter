@@ -17,3 +17,7 @@ git log --decorate=full --oneline --graph # 커밋 로그 확인
 ```bash
 git checkout -b readme # readme 라는 이름의 브랜치를 생성한 후, 생성된 브랜치로 체크아웃
 ``` 
+## 머지라기
+```bash 
+git merge readme --no-ff 
+```
