@@ -6,7 +6,7 @@
 ```bash
 git init # 저장소 생성
 ```
-## 커밋하기
+## 커밋하기ㅜ
 ```bash
 git add README.md # 커밋할 파일 추가
 git status # 현재 스테이지 상태를 확인
@@ -17,7 +17,12 @@ git log --decorate=full --oneline --graph # 커밋 로그 확인
 ```bash
 git checkout -b readme # readme 라는 이름의 브랜치를 생성한 후, 생성된 브랜치로 체크아웃
 ``` 
-## 머지라기
+
+## 머지하기
 ```bash 
 git merge readme --no-ff 
 ```
+
+# LICENSE
+이 저장소는 WTFPL라이선스에 의해 보호를 받습니다.
+>>>>>>> license
